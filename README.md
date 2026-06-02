@@ -15,32 +15,16 @@ The numerical method uses:
 
 ## Mathematical Model
 
-### Navier-Stokes Equations
+### Navier-Stokes equations
 
-$\frac{\partial u}{\partial t}
-+
-(u \cdot \nabla)u
-=
--\nabla p
-+
-\nu \Delta u $
+du/dt + (u · ∇)u = -∇p + νΔu
 
+∇ · u = 0
 
-$$
-\nabla \cdot u = 0
-$$
+### Temperature equation
 
-### Temperature Equation
+dθ/dt + u · ∇θ - (1/Pe)Δθ = 0
 
-$$
-\frac{\partial \theta}{\partial t}
-+
-u \cdot \nabla \theta
--
-\frac{1}{Pe}\Delta \theta
-=
-0
-$$
 
 ---
 
