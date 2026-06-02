@@ -18,13 +18,13 @@ The numerical method uses:
 ### Navier-Stokes Equations
 
 $$
-\frac{\partial u}{\partial t}
+$\frac{\partial u}{\partial t}
 +
 (u \cdot \nabla)u
 =
 -\nabla p
 +
-\nu \Delta u
+\nu \Delta u $
 $$
 
 $$
