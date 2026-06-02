@@ -17,7 +17,7 @@ The numerical method uses:
 
 ### Navier-Stokes Equations
 
-\[
+$$
 \frac{\partial u}{\partial t}
 +
 (u \cdot \nabla)u
@@ -25,15 +25,15 @@ The numerical method uses:
 -\nabla p
 +
 \nu \Delta u
-\]
+$$
 
-\[
+$$
 \nabla \cdot u = 0
-\]
+$$
 
 ### Temperature Equation
 
-\[
+$$
 \frac{\partial \theta}{\partial t}
 +
 u \cdot \nabla \theta
@@ -41,7 +41,7 @@ u \cdot \nabla \theta
 \frac{1}{Pe}\Delta \theta
 =
 0
-\]
+$$
 
 ---
 
