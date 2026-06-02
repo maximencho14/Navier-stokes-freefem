@@ -17,7 +17,6 @@ The numerical method uses:
 
 ### Navier-Stokes Equations
 
-$$
 $\frac{\partial u}{\partial t}
 +
 (u \cdot \nabla)u
@@ -25,7 +24,7 @@ $\frac{\partial u}{\partial t}
 -\nabla p
 +
 \nu \Delta u $
-$$
+
 
 $$
 \nabla \cdot u = 0
